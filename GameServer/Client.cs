@@ -244,7 +244,10 @@ namespace GameServer
         {
             Console.WriteLine($"{tcp.socket.Client.RemoteEndPoint} has disconnected.");
 
-            ServerSend.PlayerDisconnect(player);
+            try
+            {
+                ServerSend.PlayerDisconnect(player);
+            } catch { }
             player = null;
     
             tcp.Disconnect();

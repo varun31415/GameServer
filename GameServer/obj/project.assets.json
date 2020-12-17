@@ -20,7 +20,7 @@
       "outputPath": "/Users/rajkumarjanakarajan/Projects/GameServer/GameServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/rajkumarjanakarajan/.nuget/NuGet/NuGet.Config"
+        "/Users/rajkumarjanakarajan/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

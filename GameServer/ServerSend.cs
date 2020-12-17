@@ -135,15 +135,11 @@ namespace GameServer
         {
             using (Packet _packet = new Packet((int)ServerPackets.playerDisconnected))
             {
-                try
-                {
+                if (_player != null) {
                     _packet.Write(_player.id);
 
                     SendUDPDataToAll(_player.id, _packet);
-                }
-                catch {
-                    Console.WriteLine("Error in Client Side");
-                }             
+                }         
             }
         }
         #endregion

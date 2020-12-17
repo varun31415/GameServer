@@ -3,13 +3,13 @@
     <Files>
       <File FileName="GameServer/Player.cs" Line="16" Column="14" />
       <File FileName="GameServer/GameLogic.cs" />
-      <File FileName="GameServer/Program.cs" Line="35" Column="46" />
+      <File FileName="GameServer/Program.cs" />
       <File FileName="GameServer/Client.cs" />
-      <File FileName="GameServer/ServerSend.cs" Line="141" Column="1" />
+      <File FileName="GameServer/ServerSend.cs" />
       <File FileName="GameServer/ServerHandle.cs" />
       <File FileName="GameServer/Packet.cs" />
       <File FileName="GameServer/Constants.cs" />
-      <File FileName="GameServer/Server.cs" Line="36" Column="44" />
+      <File FileName="GameServer/Server.cs" Line="32" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
