@@ -247,7 +247,8 @@ namespace GameServer
             try
             {
                 ServerSend.PlayerDisconnect(player);
-            } catch { }
+            }
+            catch { }
             player = null;
     
             tcp.Disconnect();
